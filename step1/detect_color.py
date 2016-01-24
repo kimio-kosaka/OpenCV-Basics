@@ -16,7 +16,7 @@ while(1):
     lower_color = np.array([0,150,150])
     upper_color = np.array([25,255,255])
 
-    # Threshold the HSV image to get only blue colors
+    # Threshold the HSV image to get only red colors
     mask = cv2.inRange(hsv, lower_color, upper_color)
 
     # Bitwise-AND mask and original image
