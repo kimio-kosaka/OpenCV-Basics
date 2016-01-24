@@ -2,7 +2,7 @@
 
 import cv2
 
-#キャプチャデバイスの設定 0:/dev/video0
+#capture device 0:/dev/video0
 cap = cv2.VideoCapture(0)
 
 while(1):
